@@ -1,0 +1,105 @@
+
+.container {
+  margin: 40px auto;
+}
+
+div {
+  display: block;
+}
+
+.card-white {
+  background-color: #FFFFFF;
+  margin: 48px auto;
+  padding: 16px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: #F4F4F4;
+  font-family: 'Raleway', sans-serif;
+  color: #232020;
+  line-height: 1.6;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Monserrat', sans-serif;
+  line-height: 2;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Monserrat', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Monserrat', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  color: #3A3535;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF7315;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 50%;
+  border: 1px solid #FF7315;
+}
+
+.btn-orange {
+  background-color: rgba(255, 115, 21, 0.8);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.btn-orange:hover {
+  color: #232020;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icons {
+  font-size: 32px;
+  margin: 8px 24px;
+  color: rgb(150, 150, 150);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
